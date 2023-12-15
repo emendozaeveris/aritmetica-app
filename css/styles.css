@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.option {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color:crimson;
+    border: 2px solid rgb(8, 8, 8);
+}
+.option:hover {
+	color: white;
+	background-color: crimson;
+}
+.cta {
+	display: inline-block;
+	padding: 10px 30px;
+    cursor: pointer;
+	color: rgb(14, 13, 13);
+	background-color: transparent;
+	border: 2px solid crimson;
+	font-size: 2rem;
+	text-transform: lowercase;
+	letter-spacing: 0.1rem;
+	margin-top: 30px;
+	transition: 0.3s ease;
+	transition-property: background-color, color;
+}
+.cta:hover {
+	color: white;
+	background-color: crimson;
+}
+h3 {
+    background-color: coral;
+}
+/* Cubo*/
+.cube {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    position: absolute;
+}
+#cube1 {
+    top: 50%;
+    left: 100px;
+}
+#cube2 {
+    top: 50%;
+    left: 200px;
+    background-color: red;
+}
+#cube3 {
+    top: 50%;
+    right: 100px;
+}
+#cube4 {
+    top: 50%;
+    right: 200px;
+    background-color: red;
+}
